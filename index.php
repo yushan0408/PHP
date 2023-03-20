@@ -1,9 +1,12 @@
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title> 高大資管 </title>
+<meta charset = "utf-8">
 </head>
 <body>
-    Hello <br/>
+<form action = "check.php" method = "post">
+Login id: <input type = "text" name = "id"> <br/>
+Password: <input type = "password" name = "pwd"> <br/>
+<input type = "submit"> <input type = "reset">
+</form>
 </body>
 </html>
